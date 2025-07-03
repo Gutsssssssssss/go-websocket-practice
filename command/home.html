@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Chat Example</title>
+<title>Command Example</title>
 <script type="text/javascript">
 window.onload = function () {
     var conn;
@@ -76,6 +76,10 @@ body {
     overflow: auto;
 }
 
+#log pre {
+  margin: 0;
+}
+
 #form {
     padding: 0 0.5em 0 0.5em;
     margin: 0;
@@ -92,7 +96,7 @@ body {
 <div id="log"></div>
 <form id="form">
     <input type="submit" value="Send" />
-    <input type="text" id="msg" size="64" autofocus />
+    <input type="text" id="msg" size="64"/>
 </form>
 </body>
 </html>

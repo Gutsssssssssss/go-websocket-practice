@@ -1,4 +1,4 @@
-module temp
+module default
 
 go 1.24.4
 
